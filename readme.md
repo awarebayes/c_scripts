@@ -3,6 +3,7 @@
 Всякие скрипты для лаб по C. Contributions welcome.
 
 Q: Почему?
+
 A: Скрипты на питоне - кринж.
 
 ## Description
@@ -42,13 +43,13 @@ p.s. исполняемый файл должен называться main.c
 ./make_tests.sh lab_03_04_00 3 4
 ```
 
-#### ./style_check
+#### ./style_check.sh
 
 Проверяет все лабы на соответствие стилю.
 
 **Должен стоять [CodeChecker]**(<https://git.iu7.bmstu.ru/IU7-Projects/CodeChecker>)
 
-#### ./run_test dirname
+#### ./run_test.sh dirname
 
 Запускает тесты для задачи с папкой dirname.
 
